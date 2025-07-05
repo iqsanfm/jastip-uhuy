@@ -111,6 +111,10 @@ const ProductDetailPopup = ({ product, isOpen, onClose }) => {
               <span className="info-icon">🚚</span>
               <span className="info-text">Pengiriman ke seluruh Indonesia</span>
             </div>
+            <div className="info-item">
+              <span className="info-icon">🔄</span>
+              <span className="info-text">Dapat melakukan request barang khusus</span>
+            </div>
           </div>
         </div>
 

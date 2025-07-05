@@ -74,6 +74,10 @@ const Dashboard = () => {
       <header className="dashboard-header">
         <h1 className="store-name">Toko Jastip Bandung</h1>
         <p className="store-tagline">Temukan produk berkualitas dengan harga terbaik</p>
+        <p className="store-description">
+          🛍️ Jual beli produk premium • 📦 Pengiriman ke seluruh Indonesia • 
+          🔄 <strong>Dapat melakukan request barang khusus</strong> • 💬 Konsultasi gratis
+        </p>
       </header>
       
       <main className="dashboard-main">
