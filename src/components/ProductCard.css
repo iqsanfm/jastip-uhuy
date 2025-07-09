@@ -1,8 +1,8 @@
 /* Product Card Container */
 .product-card {
-  background: white;
+  background: #23232b;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -11,7 +11,7 @@
 
 .product-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 }
 
 /* Product Image */
@@ -42,7 +42,7 @@
   font-size: 1.2rem;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-  color: #333;
+  color: #f4f4f5;
   margin-bottom: 10px;
   line-height: 1.4;
 }
@@ -51,7 +51,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-  color: #8B5A3C;
+  color: #f4f4f5;
   margin-bottom: 15px;
 }
 
@@ -59,8 +59,8 @@
 .detail-button {
   width: 100%;
   padding: 12px 20px;
-  background: linear-gradient(135deg, #8B5A3C 0%, #A67B5B 100%);
-  color: white;
+  background: linear-gradient(135deg, #27272a 0%, #3f3f46 100%);
+  color: #f4f4f5;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
@@ -73,9 +73,9 @@
 }
 
 .detail-button:hover {
-  background: linear-gradient(135deg, #7A4F35 0%, #956B4A 100%);
+  background: linear-gradient(135deg, #3f3f46 0%, #52525b 100%);
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(139, 90, 60, 0.4);
+  box-shadow: 0 5px 15px rgba(63, 63, 70, 0.4);
 }
 
 .detail-button:active {

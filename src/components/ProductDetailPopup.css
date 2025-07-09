@@ -16,14 +16,14 @@
 
 /* Popup Content */
 .popup-content {
-  background: white;
+  background: #23232b;
   border-radius: 20px;
   max-width: 800px;
   width: 100%;
   max-height: 90vh;
   overflow-y: auto;
   position: relative;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
 }
 
 /* Close Button */
@@ -60,7 +60,7 @@
 .popup-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #333;
+  color: #f4f4f5;
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
@@ -101,7 +101,7 @@
 .product-name-detail {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #333;
+  color: #f4f4f5;
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
@@ -109,7 +109,7 @@
 .product-price-detail {
   font-size: 2rem;
   font-weight: 700;
-  color: #8B5A3C;
+  color: #f4f4f5;
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
@@ -130,14 +130,14 @@
 .shipping-title {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #333;
+  color: #f4f4f5;
   margin-bottom: 10px;
   font-family: 'Poppins', sans-serif;
 }
 
 .shipping-subtitle {
   font-size: 1rem;
-  color: #666;
+  color: #f4f4f5;
   margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
 }
@@ -149,30 +149,38 @@
 }
 
 .shipping-service {
-  background: #f8f8f8;
+  background: #23232b;
   border-radius: 12px;
   padding: 15px;
-  border: 1px solid #eee;
+  border: 1px solid #333;
   transition: all 0.3s ease;
 }
 
 .shipping-service:hover {
-  background: #f0f0f0;
+  background: #2e2e38;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.shipping-service:hover .service-name,
+.shipping-service:hover .service-description,
+.shipping-service:hover .service-duration,
+.shipping-service:hover .service-price {
+  color: inherit;
+  filter: none;
 }
 
 .service-name {
   font-size: 1rem;
   font-weight: 600;
-  color: #333;
+  color: #f4f4f5;
   margin: 0 0 5px 0;
   font-family: 'Poppins', sans-serif;
 }
 
 .service-description {
   font-size: 0.9rem;
-  color: #666;
+  color: #d4d4d8;
   margin: 0 0 10px 0;
   font-family: 'Poppins', sans-serif;
 }
@@ -186,18 +194,18 @@
 }
 
 .service-duration {
-  color: #8B5A3C;
+  color: #fbbf24;
   font-weight: 500;
 }
 
 .service-price {
-  color: #8B5A3C;
+  color: #fbbf24;
   font-weight: 600;
 }
 
 /* Additional Info */
 .additional-info {
-  background: #F9F3EF;
+  background: #23232b;
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 20px;
@@ -221,7 +229,7 @@
 
 .info-text {
   font-size: 0.95rem;
-  color: #333;
+  color: #f4f4f5;
   font-weight: 500;
 }
 
@@ -233,24 +241,22 @@
 
 .order-button {
   width: 100%;
-  padding: 15px 30px;
-  background: linear-gradient(135deg, #8B5A3C 0%, #A67B5B 100%);
-  color: white;
+  padding: 14px 0;
+  background: linear-gradient(135deg, #27272a 0%, #3f3f46 100%);
+  color: #f4f4f5;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  margin-top: 20px;
 }
 
 .order-button:hover {
-  background: linear-gradient(135deg, #7A4F35 0%, #956B4A 100%);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(139, 90, 60, 0.3);
+  background: linear-gradient(135deg, #3f3f46 0%, #52525b 100%);
+  box-shadow: 0 5px 15px rgba(63, 63, 70, 0.4);
 }
 
 /* Responsive Design */
